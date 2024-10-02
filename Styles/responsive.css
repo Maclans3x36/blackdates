@@ -19,7 +19,7 @@
     }
 
     #container img{
-        width: 100%;
+        width: 99%;
         border-radius: 0;
     }
 
@@ -50,7 +50,7 @@
 
     #colorimg img{
         margin: 1em;
-        width: 100%;
+        width: 99%;
     }
 
     #containerImg {

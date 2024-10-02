@@ -51,6 +51,10 @@
     #colorimg img{
         margin: 1em;
         width: 99%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
     }
 
     #containerImg {

@@ -36,6 +36,7 @@
         flex-direction: column-reverse;
         align-items: center;
         justify-content: center;
+        width: 100%;
     }
 
     #color p:first-of-type {
@@ -49,6 +50,7 @@
 
     #colorimg img{
         margin: 1em;
+        width: 100%;
     }
 
     #containerImg {

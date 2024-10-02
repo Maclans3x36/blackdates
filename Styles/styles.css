@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eaf0ef;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    background-color: #eaf0ef;
+    top: 0;
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    opacity: 98%;
+    
+    
+}
+
+header img {
+    height: 150px;
+    width: 250px;
+}
+
+header p {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+nav {
+    margin-right: 5rem;
+    overflow: hidden;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 0;
+    color: #000000;
+    
+}
+
+nav a:hover {
+    background-color: #f3b6da;
+    color: #ffffff;
+}
+#active {
+    background-color: #f743af ;
+    color: #ffffff;
+}
+
+#help {
+    cursor: help;
+}
+#container {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+    overflow: hidden;
+    height: 75vh;
+    margin-top: 11.5em;
+
+
+}
+
+#color {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2em;
+    margin-top: 2em;
+    background-color: #f3b6da;
+}
+
+#game p:first-of-type{
+    font-size:6em;
+    font-weight:700;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding-left: 1em;
+    color: #000000;
+    font-style: normal;
+}
+
+#game p {
+    font-size: 2em;
+    text-align: center;
+    /* padding-left: 1em; */
+    color: #f10909;
+    margin: 0;
+    font-style: italic;
+}
+
+#colorimg img{
+    border-radius: 3em;
+    height: 90vh;
+    width: 80vh;
+    margin-right: 5em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+#container img {
+    width: 75%;
+    border-radius: 1em;
+    
+    
+
+}
+
+#conForm{
+    width: 25%;
+    border-radius: 3em;
+}
+
+#container fieldset {
+
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+
+}
+
+#container input {
+    padding: 0.7em;
+    border-radius: 0.5em;
+    width: 90%;
+    margin-top: 0.6em;
+    
+}
+
+#container input:focus {
+    background-color: #f3b6da;
+    outline: #f743af solid 1px;
+
+}
+
+#container input[type='submit'] {
+    width: 95%;
+    background-color: #f743af;
+}
+
+#container input[type='submit']:hover {
+        background-color: #f3b6da;
+}
+#containerImg {
+    display: flex;
+    justify-content:space-around;
+    padding: 2px;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1rem;
+}
+
+#containerImg p {
+    margin: 0;
+    background-color: #d7dfdb;
+    padding: .5em;
+    width: 22.8vh;
+    
+}
+
+#containerImg p:hover {
+        font-weight: bold;
+}
+
+/* #item:hover{
+    width: 26vh;
+    height: 33vh;
+} */
+
+#item img {
+    width: 25vh;
+    height: 30vh;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#popular {
+    margin-left: 2em;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    justify-content: center;
+    /* align-items: center;  */
+     /* gap: 5em;  */
+        
+    background-color: #313031;
+    
+}
+
+#gridContainer li {
+    list-style: none;
+    font-size: larger;
+    padding: 1em;
+    color: #ffffff;
+}
+
+#gridItem1 {
+    grid-column: 2;
+    grid-row: 1;
+    
+
+}
+
+#gridItem2 {
+    grid-column: 1;
+    grid-row: 1;
+    
+}
+
+#gridItem3 {
+    grid-column: 3;
+    grid-row: 1;
+
+}
+
+#fbannar  {
+    font-size: xx-large;
+    font-weight: 700;
+    background-color: #fbfefe;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 1em;
+    padding-right: 1em;
+
+   
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10em;
+    /* overflow: hidden; */
+    background-color: #eaf0ef;
+    
+}
+
+
+#hlogin {
+    display: none;
+    
+}
+
+
+header #hlogin:hover {
+    background-color:#eaf0ef;
+    color: #f743af;
+
+}
+
+/* footer nav styling */
+
+footer nav a:hover {
+
+    color: #f743af;
+    background-color:#eaf0ef ;
+}
+
+

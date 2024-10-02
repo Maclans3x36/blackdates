@@ -1,0 +1,39 @@
+#cont    {
+    background-color: #eff1f1;
+    margin-top: 11.5em;
+    /* border-radius: 1em; */
+    height: 100%;
+    padding: 2em 5em 10em 5em;
+    text-align: center;
+    opacity: 70%;
+}
+
+#cont a {
+        text-decoration: none;
+        color: black;
+}
+
+
+
+/* responsive design */
+
+@media (max-width:780px){
+    #cont {margin-top: 14em;
+        
+}
+
+#hlogin a:hover {
+    background-color: #f3b6da;
+    color: #ffffff;
+}
+
+
+}
+
+body {
+    background-image: url(https://favim.com/pd/s5/orig/51/Favim.com-510695.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    
+}

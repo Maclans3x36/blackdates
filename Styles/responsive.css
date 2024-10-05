@@ -129,21 +129,6 @@
          }
 
         
-         @media (max-width: 768px) {
-            #hlogin {
-              display: flex;
-              background-color: #f743af;
-              color: #ffffff;
-              padding: 0.5em;
-              margin-top: 0.4em;
-              width: 50%;
-              border-radius: 0.3em;
-              text-decoration: none;
-              justify-content: center;
-              align-items: center;
-            }
-          
-            
           }
           
 

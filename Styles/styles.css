@@ -100,7 +100,7 @@ nav a:hover {
     font-style: italic;
 }
 
-#colorimg img{
+#color img{
     border-radius: 3em;
     height: 90vh;
     width: 80vh;
@@ -113,7 +113,7 @@ nav a:hover {
 
 
 
-#container img {
+#containerimg {
     width: 75%;
     border-radius: 1em;
     

@@ -63,12 +63,20 @@ nav a:hover {
 #container {
     display: flex;
     justify-content: space-between;
-    gap: 2em;
+    gap: 1em;
     overflow: hidden;
     height: 75vh;
     margin-top: 11.5em;
+    max-width: 100%;
 
 
+}
+
+#container img {
+
+    border-radius: 1em;
+    width: 100%;
+    height: auto;
 }
 
 #color {
